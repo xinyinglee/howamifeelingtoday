@@ -1,3 +1,7 @@
+img.resize{
+   max-height:50%;
+}
+
 body {
     background-color: #f5f5f5;
 }
