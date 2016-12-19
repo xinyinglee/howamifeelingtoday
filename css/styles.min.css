@@ -57,7 +57,7 @@ a:hover{
     text-align: center;
 }
 body {
-    color: #3c3c3c;
+    color: #000;
     font: 300 14px open sans,sans-serif;
     letter-spacing: 0.5px;
     overflow-x: hidden;
@@ -106,9 +106,8 @@ li {
     content: "";
     display: table;
     height: 2px;
-    left: 28px;
     position: absolute;
-    width: 40px;
+    width: 60px;
 }
 .section-title span {
     color: #969696;
@@ -337,7 +336,7 @@ li {
     width: 100%;
 }
 .imageHover {
-    background: rgba(156, 39, 176, 0.9) none repeat scroll 0 0;
+    background: rgba(244, 164, 58, 0.9) none repeat scroll 0 0;
     color: #fff;
     height: 100%;
     left: 0;
