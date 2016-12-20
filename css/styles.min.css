@@ -382,6 +382,7 @@ button.mfp-close:hover {
 }
 .popup-box {
     background: #fff none repeat scroll 0 0;
+	color: #000;
     margin: 0 auto;
     max-width: 640px;
     position: relative;
@@ -713,12 +714,11 @@ textarea {
     margin: 9px 0;
 }
 .bg-color {
-    background: #232323 none repeat scroll 0 0;
+    background: #f4a43a none repeat scroll 0 0;
     border-radius: 2px;
     color: #fff;
     font-weight: unset;
-    line-height: 58px;
-    padding: 0 12px;
+    padding: 0 5px;
     position: relative;
     text-transform: uppercase;
 }
