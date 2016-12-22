@@ -318,7 +318,7 @@ li {
     display: inline-block;
     transition: all 0.1s linear 0s;
 }
-.imageHover span, .resume-box span {
+.imageHover span {
     font-style: italic;
 }
 .portfolio-filter ul li:hover {
@@ -423,9 +423,13 @@ button.mfp-close:hover {
 }
 .resume-box span {
     color: #000;
-    display: block;
+    background: #f4a43a none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0 5px;
+    position: relative;
+    text-transform: uppercase;
     font-weight: 500;
-    padding-bottom: 5px;
 }
 .blog-background {
     padding: 100px 0 0;
@@ -510,7 +514,6 @@ button.mfp-close:hover {
 }
 .testimonial .testimonial_content_inner::before {
     color: rgb(170, 170, 170);
-    content: "“";
     font-size: 82px;
     left: 21px;
     position: absolute;
